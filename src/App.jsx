@@ -43,7 +43,7 @@ const App = () => {
                 className={`item rounded-2xl`}
               >
 
-                {image.imageSrc === "/photobooth.mp4" ? <video className="object-cover rounded-2xl w-full h-full" loop autoPlay muted>
+                {image.imageSrc === "photobooth.mp4" ? <video className="object-cover rounded-2xl w-full h-full" loop autoPlay muted>
                   <source src={image.imageSrc} />
                 </video> : <img
                   src={image.imageSrc}
@@ -94,7 +94,7 @@ const App = () => {
         </div>
       </div>
       <video className="fixed  object-cover inset-0 w-full h-full -z-20" autoPlay muted loop>
-        <source src="/IMG_4920.mov" />
+        <source src="IMG_4920.mov" />
       </video>
     </>
   );
